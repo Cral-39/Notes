@@ -86,3 +86,45 @@
      + rowspan：垂直合并（跨行合并）
      + colspan：水平合并（跨列合并）
    + Note：只有同一个结构标签才能合并（即不能跨：thead，tbody，tfoot）
+
+###### 表单标签
++ 应用场景：让用户输入的，例如登录/注册/搜索（很局限，可以慢慢记）
++ input系列标签：
+     + 基本使用：
+     ![alt text](image-2.png)
+    <img src="image.png">
+    ![alt text](image-1.png)
+   + 占位符（输入框里的提示信息）：
+       + 属性名：placeholder
+   + 单选框：
+   ![alt text](image-3.png)
+   + 文件选择：
+       + type属性file，默认是选择单文件
+       + 多文件选择，需添加属性multiple
+   + 按钮：
+       + 注意是type属性哦~
+      ![alt text](image-5.png)
+      + 想改按钮文字可以加属性value="这里填文字内容"
+      + Note：提交按钮，重置按钮需要把可以提交，重置的内容放到一个表单域form里。如下图
+      + 这里的action后面接的是提交地址
+         ![alt text](image-4.png)
++ botton双标签：
+  ![alt text](image-8.png)
+      + 实例：
+      ![alt text](image-6.png)
+      ![alt text](image-7.png)
++ select标签
+  ![alt text](image-9.png)
++ textarea双标签
+  ![alt text](image-10.png)
+  + 拖拽功能后面css要禁用（hhh）
++ lable标签
+  + 可以用于例如做单选的时候，点每个选项对应的照片也能选上
+  + （记第二个就得了，第一个麻烦死）
+  ![alt text](image-12.png)
+  试例：
+  ![alt text](image-11.png)
+
+还有两个就完结了耶！（下次记得删）
+###### 语义化标签
+###### 字符实体
