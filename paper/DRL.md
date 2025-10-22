@@ -59,3 +59,8 @@
   ![alt text](image-11.png)
   （这里听得云里雾里）
 
+### 四.价值和策略学习结合，Actor-Critic Methods
+![alt text](image-12.png)
++ 相当于：actor是运动员，critic是裁判打分
+![alt text](image-13.png)
+
